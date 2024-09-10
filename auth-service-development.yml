@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8083
 spring:
   h2:
     console:
@@ -12,14 +12,3 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: ${EUREKA_URI:http://localhost:8081/eureka}
-#  instance:
-#    preferIpAddress: true
-#com:
-#  marcpinol:
-#    jwt:
-#      secret: QHsyZFY/O11WNnRUTVEzeTokQ1JDUnBpR3RwIUVGKHA=
-#      valid-token-time: 3600_00
